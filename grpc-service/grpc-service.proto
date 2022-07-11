@@ -1,0 +1,12 @@
+syntax = "proto3";
+option go_package = "github.com/dembygenesis/go-grpc/grpc-service";
+
+package grpcservice;
+
+service RouteGuide {
+
+}
+
+message Text {
+  string name = 1;
+}
